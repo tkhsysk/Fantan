@@ -1,0 +1,5 @@
+c:\users\yosuke\documents\visual studio 2015\Projects\Fantan\Fantan\bin\Debug\Fantan.exe
+c:\users\yosuke\documents\visual studio 2015\Projects\Fantan\Fantan\bin\Debug\Fantan.pdb
+c:\users\yosuke\documents\visual studio 2015\Projects\Fantan\Fantan\obj\Debug\Fantan.csprojResolveAssemblyReference.cache
+c:\users\yosuke\documents\visual studio 2015\Projects\Fantan\Fantan\obj\Debug\Fantan.exe
+c:\users\yosuke\documents\visual studio 2015\Projects\Fantan\Fantan\obj\Debug\Fantan.pdb

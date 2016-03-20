@@ -12,15 +12,8 @@ namespace Fantan
 
         public void DeclareWin(Player winner)
         {
-            // Remove RemoveAt どちらも削除後つめる
-            _players.Remove(winner);
-            Console.WriteLine(winner.Name + "さんが勝ち抜けました。");
-
-            if (_players.Count == 1)
-            {
-                Player loser = (Player)_players[0];
-                Console.WriteLine(loser.Name + "さんが敗者です。");
-            }
+            Console.WriteLine(winner.Name + "さんが勝ち抜けです。");
+            DeregisterPlayer(winner);
         }
 
         public void PrepareGame(Hand cards)
@@ -56,6 +49,18 @@ namespace Fantan
         public void RegisterPlayer(Player player)
         {
             _players.Add(player);
+        }
+
+        public void DeregisterPlayer(Player player)
+        {
+            // Remove RemoveAt どちらも削除後つめる
+            _players.Remove(player);
+
+            if (_players.Count == 1)
+            {
+                Player loser = (Player)_players[0];
+                Console.WriteLine(loser.Name + "さんが敗者です。");
+            }
         }
     }
 }

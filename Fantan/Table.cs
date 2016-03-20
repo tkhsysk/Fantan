@@ -8,8 +8,7 @@ namespace Fantan
 {
     interface Table
     {
-
         void PutCard(Card[] card);
-        Card[][] GetCard();
+        Card[,] GetCards();
     }
 }
